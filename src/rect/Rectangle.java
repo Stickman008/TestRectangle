@@ -4,9 +4,9 @@ public class Rectangle {
 
 	private int width, height;
 
-	public Rectangle(int witdth, int height) {
+	public Rectangle(int width, int height) {
 		super();
-		this.width = Math.max(1, height);
+		this.width = Math.max(1, width);
 		this.height = Math.max(1, height);
 	}
 
